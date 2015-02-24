@@ -1,5 +1,6 @@
 #!/bin/sh
 
+xcrun swift --version|head -n 1
 echo 'Does Swift work yet?'
 
 for radar in `ls -d *|grep '^[0-9]'`
